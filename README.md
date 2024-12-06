@@ -18,3 +18,12 @@ def compare(a, b):
 
 ordered = sorted(elements, key=functools.cmp_to_key(compare))
 ```
+
+## Algorithms
+
+### Loop Detection
+
+Keep track of the states in a visited set, if a state is already visited
+there is a loop. The state must contain all necessary information, e.g.
+position might not be enough we also need direction.
+
