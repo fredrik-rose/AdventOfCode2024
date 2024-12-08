@@ -27,3 +27,9 @@ Keep track of the states in a visited set, if a state is already visited
 there is a loop. The state must contain all necessary information, e.g.
 position might not be enough we also need direction.
 
+### Line Representations
+
+There are many ways to represent a line. One example is by a point `(x, y)` and a vector `(u, v)`. Another example is
+the general form `ax + by + c = 0`. Both if these avoids to potential division by zero that could be an issue with the
+slope-intercept representation `y = m*x + b`. See https://www.sunshine2k.de/articles/algorithm/line2d/linerep2d.html
+and day 8.
