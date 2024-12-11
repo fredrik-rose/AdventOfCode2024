@@ -33,3 +33,8 @@ There are many ways to represent a line. One example is by a point `(x, y)` and 
 the general form `ax + by + c = 0`. Both if these avoids to potential division by zero that could be an issue with the
 slope-intercept representation `y = m*x + b`. See https://www.sunshine2k.de/articles/algorithm/line2d/linerep2d.html
 and day 8.
+
+### Lanternfish
+
+If there are several identical items that evolves over time a good approach is to keep a counter for each unique item
+and in that way evolve all items of a certain kind simultaneously. See day 11.
