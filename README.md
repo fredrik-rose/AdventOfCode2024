@@ -38,3 +38,10 @@ and day 8.
 
 If there are several identical items that evolves over time a good approach is to keep a counter for each unique item
 and in that way evolve all items of a certain kind simultaneously. See day 11.
+
+
+### Detect Emerging Pattern in Random
+
+Find the minimum entropy, a pattern should have smaller entropy than random. Day 14 is an example where this is kind of
+used. A more general solution is probably to convert the grid to a string of letters and compute the entropy for this
+string.
