@@ -19,6 +19,10 @@ def compare(a, b):
 ordered = sorted(elements, key=functools.cmp_to_key(compare))
 ```
 
+### Send Data to a Generator
+
+It is possible to send data to a generator, see day 15.
+
 ## Algorithms
 
 ### Loop Detection
