@@ -49,3 +49,8 @@ and in that way evolve all items of a certain kind simultaneously. See day 11.
 Find the minimum entropy, a pattern should have smaller entropy than random. Day 14 is an example where this is kind of
 used. A more general solution is probably to convert the grid to a string of letters and compute the entropy for this
 string.
+
+
+### Find All Shortest Paths
+
+It is possible to modify Dijkstra to find all shortest paths, see day 16.
