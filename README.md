@@ -23,6 +23,12 @@ ordered = sorted(elements, key=functools.cmp_to_key(compare))
 
 It is possible to send data to a generator, see day 15.
 
+### Create a Set from a List of Items
+
+```
+set().union(*items)
+```
+
 ## Algorithms
 
 ### Initial Min Value
