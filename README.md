@@ -51,6 +51,12 @@ which is equivalent to
 first.intersection(second) == first
 ```
 
+### Swap
+
+```
+a, b = b, a
+```
+
 ## Algorithms
 
 ### Initial Min Value
