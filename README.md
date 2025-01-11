@@ -25,6 +25,11 @@ It is possible to send data to a generator, see day 15.
 
 ## Algorithms
 
+### Initial Min Value
+
+Be careful not choosing a too small initial min value when trying to find the minimum of something. Use e.g.
+`float("inf")` instead of `1e6`.
+
 ### Loop Detection
 
 Keep track of the states in a visited set, if a state is already visited
